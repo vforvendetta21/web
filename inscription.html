@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <title>Inscription.html</title>
+</head>
+
+<body>
+    <header>
+        <p>
+         <a href="accueil.html">Accueil</a>
+         <a href="Projets.html">Projets</a>
+         <a href="Services.html">Services</a>
+         <a href="Inscription.html">Inscription</a>
+        </p>
+
+    
+        <hr>
+        <p>
+        <img src="https://www.comundi.fr/mag-des-competences/wp-content/uploads/2020/07/Image-travail-collectif.jpg" height="227" width="1520">
+        </p>
+    </header>
+
+    
+        <hr>
+        <p>
+            <h1>
+                <b>
+               Inscription
+                </b>
+            </h1>
+
+        </p>
+        <form>
+            <table>
+                <tr>
+            <td><label for="name">First Name*</label></td>
+           <td><input type="text" id="name" name="name" required minlength="3"></td>
+                </tr>
+                <tr>
+            <td><label for="lastname">Last Name</label></td>
+            <td><input type="text" id="lastname" name="lastname" minlength="3"></td>
+                </tr>
+                <tr>
+                    <td><label for="adress">Address</label></td>
+                    <td><textarea name="adress" id="adress" cols="20" rows="5"></textarea> </td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone Number*</label></td>
+                    <td><input type="tel" id="phone" name="phone" pattern="[0-9]{6}"  required></td>
+                </tr>
+                <tr>
+                    <td><label >Date of birth</label></td>
+                    <td><input type="date" ></td>
+
+                </tr>
+                <tr>
+                <td><label for="email" >Email*</label></td>
+                <td><input type="email" placeholder="contact@exemple.com" name="email" required> </td>
+                </tr>
+                <tr>
+                    <td><label for="pass" >Password*</label></td>
+                   <td><input type="password" id="pass" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.]) title="Le mot de passe doit respecter le standard de protection des mots de passe : Il devrait inclure une combinaison de minuscules, majuscules, chiffres et symboles" required></td>
+
+                </tr>
+                <tr>
+                    <td><label for="pass" >Confirm Password*</label></td>
+                    <td><input type="password" id="pass" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.]) title="Le mot de passe doit respecter le standard de protection des mots de passe : Il devrait inclure une combinaison de minuscules, majuscules, chiffres et symboles" required></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td ><input type="submit" value="Submit"><input type="reset" value="Reset"></td>
+                </tr>
+
+
+            
+            </table>
+            
+        </form>
+        <hr>
+        <footer>
+            <p>
+                <h1>
+                    <b>
+                   Contact Us
+                    </b>
+                </h1>
+            </p>
+            <a href= "mailto:contact@esprit.tn">email:esprit@esprit.tn</a>
+         </footer>
+
+
+
+
+</body>
+</html>

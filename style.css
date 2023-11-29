@@ -1,0 +1,53 @@
+*  { 
+     font-family:'Trebuchet MS';
+     margin:0px ;
+   }
+header  {
+    
+     background-color: red;
+     color:white;
+       }
+      
+.LienTitre {
+     
+    visited{color:black;} 
+    hover{color: yellow;}
+    focus{color: green;}
+       }
+a {
+    text-decoration: none;
+}
+h1 {
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+  }*/
+#form {
+   padding: 20px;
+   width: 500px;
+   background-color: #f2f2f2;
+      }
+.btn{
+   background-color: #DED983;
+   font-size: 1.2em;
+   color: #345071;
+   font-family:'Trebuchet MS';
+
+    }
+input, textarea  {
+    width: 100%;
+    padding: 12px;
+    margin:8px;
+    border-width: 1px ;
+    border-style:solid;
+    border-color:#ccc;
+      }
+footer {
+
+    background-color: red;
+    color: white;
+       }
+
+    
